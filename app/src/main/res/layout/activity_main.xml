@@ -1,0 +1,129 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+
+
+>
+
+
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview1"
+        card_view:cardCornerRadius="3dp"
+        android:foreground="?android:attr/selectableItemBackground"
+
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/cardview1txt"
+            android:id="@+id/textView"
+            />
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview2"
+        card_view:cardCornerRadius="3dp"
+        android:layout_below="@id/cardview1"
+        android:layout_marginTop="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/cardview2txt"
+            android:id="@+id/textView2"
+            />
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/cardview3"
+        card_view:cardCornerRadius="3dp"
+        android:layout_below="@id/cardview2"
+        android:layout_marginTop="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+
+
+        >
+
+        <ImageView
+            android:src="@drawable/zahlenbild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview4"
+        card_view:cardCornerRadius="3dp"
+        android:layout_below="@id/cardview3"
+        android:layout_marginTop="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/cardview4txt"
+            android:id="@+id/textView4"
+            />
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CardView Tutorial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cardview1txt">Fotomontage: Es werden mehrere Bilder zu einem Bild zusammengesetzt. Dabei werden
+meistens Objekte aus anderen Bildern freigestellt (= ausgeschnitten) und in ein anderes Bild
+eingefügt. Eine Fotomontage kann eine komplett neue Szene ergeben.
+•</string>
+    <string name="cardview2txt">Hintergrund austauschen: Wie bei der Fotomontage wird ein Objekt freigestellt und vor
+einen anderen Hintergrund gestellt. Dies erfolgt oft durch die sogenannte „Greenscreen
+Technologie“, bei der das Objekt vor einem grünen Hintergrund aufgenommen, und dann am
+Computer alles Grüne durch einen anderen Hintergrund ersetzt wird.</string>
+    <string name="cardview3txt">Retuschieren: Mit dieser Technik werden
+meist kleine Objekte aus dem Bild entfernt oder Objekte verschönert, indem man
+Unregelmäßigkeiten wie Pickel, Macken in Holz, Graffitis an Hauswänden, etc. entfernt. Beim
+Retuschieren wird in der Regel eine Stelle neben der zu retuschierenden Stelle geklont, und
+über der Bildunregelmäßigkeit platziert, sodass die Stelle überdeckt wird.</string>
+    <string name="cardview4txt">Filter: Mit verschiedenen Filtern kann ein Bild verschiedene Gefühle ausdrücken, oder das
+Alter des Bildes kann verändert werden. So kann man z.B. mit dem Drama-Filter eine
+bedrohliche Atmosphäre erzeugen und mit einem Schwarz-Weiß-Filter oder einem Sepia-
+Filter das Bild älter wirken lassen.</string>
+
+</resources>
